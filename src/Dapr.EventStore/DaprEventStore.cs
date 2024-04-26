@@ -102,6 +102,7 @@ public class DaprEventStore
 
         var meta = MetaProvider(streamName);
 
+
         if (Mode == SliceMode.Off)
         {
             await foreach (var e in client.LoadAsyncBulkEventsAsync(StoreName, streamName, version, meta, head))
