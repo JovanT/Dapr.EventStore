@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/src/Dapr.EventStore.Web/components/mongoDbStateStore.yml
+/src/Dapr.EventStore.Web/components/pubsub.yaml
